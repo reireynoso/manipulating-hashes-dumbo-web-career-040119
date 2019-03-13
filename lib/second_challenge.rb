@@ -10,5 +10,5 @@ def second_challenge
   groceries.collect do |keys,values|
     puts values
   end
-  return values
+
 end
