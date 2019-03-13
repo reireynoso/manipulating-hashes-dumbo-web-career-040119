@@ -8,10 +8,8 @@ def second_challenge
 
   #code your solution here!
   arr = []
-  groceries.collect do |key|
-    key.collect do |value|
-      arr << value
-    end
+  groceries.collect do |key,value|
+    arr << value
   end
   return arr
 
