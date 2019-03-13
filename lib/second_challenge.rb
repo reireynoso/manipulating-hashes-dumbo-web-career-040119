@@ -9,5 +9,4 @@ def second_challenge
   #code your solution here!
   arr = groceries.values
   arr.flatten
-  return arr
 end
