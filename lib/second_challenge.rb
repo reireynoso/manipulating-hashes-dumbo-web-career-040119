@@ -10,7 +10,7 @@ def second_challenge
   arr = []
   groceries.collect do |key|
     key.collect do |value|
-      arr << value
+      puts value
     end
   end
   return arr
